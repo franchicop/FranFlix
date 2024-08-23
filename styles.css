@@ -1,0 +1,52 @@
+body{
+    background-color: #fffdd0;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+#titulo{
+    text-align: center;
+    border-bottom : 5px solid black;
+    margin-top: 10px;
+    font-size: 44px;
+    letter-spacing: 165px;
+    font-weight: bold;
+    
+}
+
+#subtitulo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    
+}
+
+#link{
+    background-color: rgb(228, 172, 89);
+    height: 60vh; /* altura total da viewport */
+    max-width: 100%;
+}
+#texto{
+    justify-content:center;
+    display: flex;
+}
+
+img {
+    height: 200px;
+}
+#selecao{
+    background-color: black;
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+   
+}
+
+#selecao img{
+    opacity: 0.5;
+    height: 200px
+}   
+
+#selecao img:hover {
+    opacity: 1.0;
+}
