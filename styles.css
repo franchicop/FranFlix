@@ -29,6 +29,7 @@ body{
 #texto{
     justify-content:center;
     display: flex;
+    font-size: 30px;
 }
 
 img {
